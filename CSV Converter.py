@@ -139,10 +139,7 @@ def writeClick():
     convert() 
     createFile()
     instructionLbl.config(text='Done')
-   
-    #// Future // with pd.ExcelWriter('Main PCE Test Log.xlsx',mode='a',engine='openpyxl',if_sheet_exists='overlay') as writer:
-    #       df5.to_excel(writer, sheet_name='Data',header=None, startrow=writer.sheets['Data'].max_row, index= 'Test Number', freeze_panes=(1,1))
-
+       
 #Create GUI objects
 instructionLbl = Label(root, text='Choose CSV Location', font=('Times New Roman', 18))
 dateLbl = Label(root, text='No Date Selected', font=('Times New Roman', 18))
